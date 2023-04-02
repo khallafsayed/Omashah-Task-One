@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center card">
+  <div class="card-header">
+      <h1> Items </h1>
+  </div>
+  <div class="card-body row">
+
+      <div class="col-md-4">    
+          <a class="btn btn-success" href="@Url.Action("Published_Items")">
+                
+                    <h3>Published Items </h3>
+                 
+            </a>
+      </div>
+        <div class="col-md-4">
+            <a class="btn btn-primary" href="@Url.Action("Nonn_Published_Items")">
+                 
+                    <h3>Nonn Published Items </h3>
+                 
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a class="btn btn-warning" href="@Url.Action("Create")">
+                 
+                    <h3>   Adds Items </h3>
+                
+            </a>
+        </div>
+  </div>
+</div>

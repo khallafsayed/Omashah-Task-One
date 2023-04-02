@@ -1,0 +1,39 @@
+html {
+    font-size: 14px;
+    
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    /* background: linear-gradient(to Bottom,#e2b9b9 0%, #fff 100%);*/
+    background: linear-gradient(to bottom, #62aac2d9 0%, #ff99cc7f 100%);
+}
+.CreateClass{
+    margin:auto;
+    width:80%;
+    background:linear-gradient(to Bottom,#ddd 0%,#808080 100%);
+    font-size:16px;
+    text-align:center;
+    
+}
+.CreateClass .form-group{
+    margin-bottom:5px;
+}
+.card {
+    margin: auto;
+     
+    background: linear-gradient(to Bottom,#ddd 0%,#808080 100%);
+    font-size: 16px;
+    text-align: center;
+}
